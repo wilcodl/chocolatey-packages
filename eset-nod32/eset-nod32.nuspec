@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>eset-nod32</id>
+    <version>14.0.22.0</version>
+    <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages</packageSourceUrl>
+    <owners>Wilco de Lange</owners>
+
+    <title>ESET NOD32 Antivirus</title>
+    <authors>ESET, spol. s r.o.</authors>
+    <projectUrl>https://www.eset.com/int/home/antivirus/</projectUrl>
+    <tags>eset nod32 antivirus</tags>
+    <summary>Install ESET NOD32 Antivirus</summary>
+    <description>Fast and light, vital for gamers and everyday users that don’t want any interruptions. Just install and forget.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
