@@ -14,6 +14,7 @@
     <tags>eset nod32 antivirus</tags>
     <summary>Install ESET NOD32 Antivirus</summary>
     <description>Fast and light, vital for gamers and everyday users that don’t want any interruptions. Just install and forget.</description>
+    <releaseNotes>https://support.eset.com/en/kb7674-what-s-new-in-eset-version-14-home-products</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
