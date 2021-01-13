@@ -9,6 +9,7 @@
     <title>ESET NOD32 Antivirus</title>
     <authors>ESET, spol. s r.o.</authors>
     <projectUrl>https://www.eset.com/int/home/antivirus/</projectUrl>
+    <iconUrl>https://chocolatey.org/content/packageimages/eset-antivirus.7.3.png</iconUrl>
     <licenseUrl>https://help.eset.com/eav/14/en-US/eula.html</licenseUrl>
     <docsUrl>https://help.eset.com/eav/14/en-US/</docsUrl>
     <tags>eset nod32 antivirus</tags>
