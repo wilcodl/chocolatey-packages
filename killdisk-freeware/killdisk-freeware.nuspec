@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>killdisk-freeware</id>
+    <version>13.0.11</version>
+    <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/killdisk-freeware</packageSourceUrl>
+    <owners>Wilco de Lange</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Active@ KillDisk</title>
+    <authors>LSoft Technologies Inc.</authors>
+    <projectUrl>http://killdisk.com/killdisk-freeware.htm</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/killdisk-freeware.png</iconUrl>-->
+    <licenseUrl>http://killdisk.com/eula.htm</licenseUrl>
+    <docsUrl>http://killdisk.com/killdisk-guide.htm</docsUrl>
+    <tags>lsoft killdisk freeware erase disk</tags>
+    <summary>Install the free version of Active@ KillDisk. It can also create a Console Boot Disk/</summary>
+    <description>Active@ KillDisk Freeware is an easy-to use & compact utility that allows to sanitize storage media with the One Pass Zeros data sanitizing standard.
+    It permanently erases all data on Hard Disks, Solid State Drives, Memory Cards & USB drives, SCSI storage & RAID disk arrays and even two disks in parallel.</description>
+    <releaseNotes>https://www.killdisk.com/history.htm</releaseNotes>
+    <!-- =============================== -->      
+
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+    <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
+         - You want to use Get-UninstallRegistryKey on less than 0.9.10 (in chocolateyUninstall.ps1)
+         - You want to use Get-PackageParameters and on less than 0.11.0
+         - You want to take advantage of other functions in the core community maintainer's team extension package
+    -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
