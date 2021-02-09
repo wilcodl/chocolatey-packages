@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>undercover10</id>
+    <version>3.00</version>
+    <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/undercover10</packageSourceUrl>
+    <owners>Wilco de Lange</owners>
+    <!-- =============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>UnderCover10</title>
+    <authors>emdb.eu</authors>
+    <projectUrl>https://www.emdb.eu/undercover10/</projectUrl>
+    <iconUrl>https://static.wilcodl.nl/undercover10.png</iconUrl>
+    <docsUrl>https://www.emdb.eu/undercover10/online-help.html</docsUrl>
+    <tags>emdb undercoverxp undercover10 print cover cd dvd</tags>
+    <summary>Create and print CD, DVD, blueray, etc covers from an image</summary>
+    <description>What covers do ya wanna print today?</description>
+    <releaseNotes>https://www.emdb.eu/undercover10/whats-new.html</releaseNotes>
+    <!-- =============================== -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
