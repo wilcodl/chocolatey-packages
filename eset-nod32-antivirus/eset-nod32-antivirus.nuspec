@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>eset-nod32-antivirus</id>
-    <version>14.0.22.0</version>
+    <version>14.1.20.0</version>
     <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/eset-nod32-antivirus</packageSourceUrl>
     <owners>Wilco de Lange</owners>
 
     <title>ESET NOD32 Antivirus</title>
     <authors>ESET, spol. s r.o.</authors>
     <projectUrl>https://www.eset.com/int/home/antivirus/</projectUrl>
-    <iconUrl>https://chocolatey.org/content/packageimages/eset-antivirus.7.3.png</iconUrl>
+    <iconUrl>https://static.wilcodl.nl/eset.png</iconUrl>
     <licenseUrl>https://help.eset.com/eav/14/en-US/eula.html</licenseUrl>
     <docsUrl>https://help.eset.com/eav/14/en-US/</docsUrl>
     <tags>eset nod32 antivirus</tags>
