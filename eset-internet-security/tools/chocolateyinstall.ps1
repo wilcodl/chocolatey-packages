@@ -21,9 +21,9 @@ $packageArgs = @{
 	url            = 'https://download.eset.com/com/eset/apps/home/eis/windows/latest/eis_nt32.exe'
 	url64bit       = 'https://download.eset.com/com/eset/apps/home/eis/windows/latest/eis_nt64.exe'
 	softwareName   = 'ESET Security'
-	checksum       = '552164B5ED913125F8C2D038E26F1C689FC1F6371806A2EF009C7F58D4795725'
+	checksum       = '8CFD0F84EA871F814B7E9178780C65FF52AC7448902FA6D38A91A96A68C7C859'
 	checksumType   = 'sha256'
-	checksum64     = 'F15D90DBCE44207F7B2A519A0CF719668F6F246EED2C2E72A75C52B2B117D4E1'
+	checksum64     = '7EBF7C4FC914F353AACDB5EC8D3472346174E80B9EC4F9C6D0159BBA1EC6A8C5'
 	checksumType64 = 'sha256'
 	silentArgs     = '--silent --accepteula --msi-property-ehs PRODUCTTYPE=eis'
 	validExitCodes = @(0)
