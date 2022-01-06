@@ -2,20 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>eset-internet-security</id>
-    <version>14.1.20.0</version>
+    <version>15.0.21.0</version>
     <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/eset-internet-security</packageSourceUrl>
     <owners>Wilco de Lange</owners>
-
     <title>ESET Internet Security</title>
     <authors>ESET, spol. s r.o.</authors>
     <projectUrl>https://www.eset.com/int/home/internet-security/</projectUrl>
     <iconUrl>https://static.wilcodl.nl/eset.png</iconUrl>
-    <licenseUrl>https://help.eset.com/eis/14/en-US/eula.html</licenseUrl>
-    <docsUrl>https://help.eset.com/eis/14/en-US/</docsUrl>
+    <licenseUrl>https://help.eset.com/eis/15/en-US/eula.html</licenseUrl>
+    <docsUrl>https://help.eset.com/eis/15/en-US/</docsUrl>
     <tags>eset security antivirus firewall antitheft</tags>
     <summary>Install ESET Internet Security</summary>
     <description>Ideal for modern users concerned about their privacy, who actively use internet for shopping, banking, work and communication.</description>
-    <releaseNotes>https://support.eset.com/en/kb7674-what-s-new-in-eset-version-14-home-products</releaseNotes>
+    <releaseNotes>https://support.eset.com/en/kb8124-whats-new-in-eset-windows-home-products-version-15</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

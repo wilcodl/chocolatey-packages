@@ -23,9 +23,9 @@ $packageArgs = @{
 	url            = 'https://download.eset.com/download/win/eav/eav_nt32_enu.exe'
 	url64bit       = 'https://download.eset.com/download/win/eav/eav_nt64_enu.exe'
 	softwareName   = 'ESET Security'
-	checksum       = 'CCFE369A891122DD7C67D9BF322F7364E5FC7C7664CEA9E9431C0C2255FC6AAE'
+	checksum       = '7F124052A797F802FBC3B8149733C3503586F63518D310A0A8C587DDCEB46E20'
 	checksumType   = 'sha256'
-	checksum64     = '2CDE0B59852E5EE8C3279B08C14DBFD5918353ED03338A00C353A24C45275A54'
+	checksum64     = 'E34546AC5056DF0CE056012C46D13367CC9C1C797FFDE3D540B8856D73A17CAE'
 	checksumType64 = 'sha256'
 	silentArgs     = '--silent --accepteula --msi-property-ehs PRODUCTTYPE=eav'
 	validExitCodes = @(0, 5022) # 5022: version already current

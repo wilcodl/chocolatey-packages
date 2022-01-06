@@ -2,20 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>eset-nod32-antivirus</id>
-    <version>14.2.24.0</version>
+    <version>15.0.21.0</version>
     <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/eset-nod32-antivirus</packageSourceUrl>
     <owners>Wilco de Lange</owners>
-
     <title>ESET NOD32 Antivirus</title>
     <authors>ESET, spol. s r.o.</authors>
     <projectUrl>https://www.eset.com/int/home/antivirus/</projectUrl>
     <iconUrl>https://static.wilcodl.nl/eset.png</iconUrl>
-    <licenseUrl>https://help.eset.com/eav/14/en-US/eula.html</licenseUrl>
-    <docsUrl>https://help.eset.com/eav/14/en-US/</docsUrl>
+    <licenseUrl>https://help.eset.com/eav/15/en-US/eula.html</licenseUrl>
+    <docsUrl>https://help.eset.com/eav/15/en-US/</docsUrl>
     <tags>eset nod32 antivirus</tags>
     <summary>Install ESET NOD32 Antivirus</summary>
     <description>Fast and light, vital for gamers and everyday users that don’t want any interruptions. Just install and forget.</description>
-    <releaseNotes>https://support.eset.com/en/kb7674-what-s-new-in-eset-version-14-home-products</releaseNotes>
+    <releaseNotes>https://support.eset.com/en/kb8124-whats-new-in-eset-windows-home-products-version-15</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
