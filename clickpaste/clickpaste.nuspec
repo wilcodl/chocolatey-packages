@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>clickpaste</id>
+    <version>1.0.1</version>
+    <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/clickpaste</packageSourceUrl>
+    <owners>Wilco de Lange</owners>
+    <title>ClickPaste (Portable)</title>
+    <authors>Collective-Software</authors>
+    <projectUrl>https://github.com/Collective-Software/ClickPaste</projectUrl>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/Collective-Software/ClickPaste/blob/master/LICENSE</licenseUrl>
+    <docsUrl>https://github.com/Collective-Software/ClickPaste/blob/master/README.md</docsUrl>
+    <tags>clickpaste click copy paste clipboard keystrokes notification</tags>
+    <description>Windows 10 notification area app in C# that can paste clipboard contents as keystrokes to whatever location you click.</description>
+    <releaseNotes>https://github.com/Collective-Software/ClickPaste/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
