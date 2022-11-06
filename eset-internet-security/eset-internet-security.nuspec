@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>eset-internet-security</id>
-    <version>15.0.21.0</version>
+    <version>16.0.22.0</version>
     <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/eset-internet-security</packageSourceUrl>
     <owners>Wilco de Lange</owners>
     <title>ESET Internet Security</title>

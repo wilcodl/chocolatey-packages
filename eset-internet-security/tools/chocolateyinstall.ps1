@@ -21,12 +21,12 @@ $packageArgs = @{
 	url            = 'https://download.eset.com/com/eset/apps/home/eis/windows/latest/eis_nt32.exe'
 	url64bit       = 'https://download.eset.com/com/eset/apps/home/eis/windows/latest/eis_nt64.exe'
 	softwareName   = 'ESET Security'
-	checksum       = '384089C5ED4FE0B31A833EBB5A2AFCFF62EAC9C0F269BFDB13CFED7C37447539'
+	checksum       = 'F18DA6700CBEA3A1C7FCDDF91D68C0710808E2F234B4E92CFD810DB98DF7F118'
 	checksumType   = 'sha256'
-	checksum64     = '519CF934ADBB0A612D7FB953FA32A146A56D20BCC5F9EF3AA48ABE2D6C439326'
+	checksum64     = '57FA2791AC43DC5F9B26AC2C0F6219EDCA9BFD1D5F56529346769C4323C1B73A'
 	checksumType64 = 'sha256'
 	silentArgs     = '--silent --accepteula --msi-property-ehs PRODUCTTYPE=eis'
-	validExitCodes = @(0)
+	validExitCodes = @(0, 5022) # 5022: version already current
 }
 
 Install-ChocolateyPackage @packageArgs

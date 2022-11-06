@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>eset-nod32-antivirus</id>
-    <version>15.0.21.0</version>
+    <version>16.0.22.0</version>
     <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/eset-nod32-antivirus</packageSourceUrl>
     <owners>Wilco de Lange</owners>
     <title>ESET NOD32 Antivirus</title>
