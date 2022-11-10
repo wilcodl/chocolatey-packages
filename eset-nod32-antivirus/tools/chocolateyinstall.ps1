@@ -1,6 +1,4 @@
-﻿
-$ErrorActionPreference = 'Stop'
-$toolsDir = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
+﻿$ErrorActionPreference = 'Stop'
 
 [double]$WinVersion = [Environment]::OSVersion.Version.Major.toString() + "." + [Environment]::OSVersion.Version.Minor.toString()
 
@@ -16,11 +14,9 @@ if ($OS.ProductType -ne 1){
 
 $packageArgs = @{
 	packageName    = $env:ChocolateyPackageName
-	unzipLocation  = $toolsDir
 	fileType       = 'EXE'
 	url            = 'https://download.eset.com/download/win/eav/eav_nt32_enu.exe'
 	url64bit       = 'https://download.eset.com/download/win/eav/eav_nt64_enu.exe'
-	softwareName   = 'ESET Security'
 	checksum       = 'A78CAB978DD0D9CE486F3D0A0EBCADB94648867C5C0BD7E194ACBCC013EAA1E2'
 	checksumType   = 'sha256'
 	checksum64     = '379ABD2CA67E1D91D548D1339BFFCFFEA139EC6751B3418ACF821D243246FA62'
@@ -29,4 +25,11 @@ $packageArgs = @{
 	validExitCodes = @(0, 5022) # 5022: version already current
 }
 
-Install-ChocolateyPackage @packageArgs
+$InstalledPackage = Get-UninstallRegistryKey -softwareName 'ESET Security' -WarningAction SilentlyContinue
+
+if ($InstalledPackage.DisplayVersion -eq $env:ChocolateyPackageVersion){
+	Write-Output 'Version is already current'
+}
+else {
+	Install-ChocolateyPackage @packageArgs
+}

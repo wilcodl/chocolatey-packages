@@ -1,6 +1,4 @@
-﻿
-$ErrorActionPreference = 'Stop'
-$toolsDir = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
+﻿$ErrorActionPreference = 'Stop'
 
 [double]$WinVersion = [Environment]::OSVersion.Version.Major.toString() + "." + [Environment]::OSVersion.Version.Minor.toString()
 
@@ -16,11 +14,9 @@ if ($OS.ProductType -ne 1){
 
 $packageArgs = @{
 	packageName    = $env:ChocolateyPackageName
-	unzipLocation  = $toolsDir
 	fileType       = 'EXE'
 	url            = 'https://download.eset.com/com/eset/apps/home/eis/windows/latest/eis_nt32.exe'
 	url64bit       = 'https://download.eset.com/com/eset/apps/home/eis/windows/latest/eis_nt64.exe'
-	softwareName   = 'ESET Security'
 	checksum       = 'F18DA6700CBEA3A1C7FCDDF91D68C0710808E2F234B4E92CFD810DB98DF7F118'
 	checksumType   = 'sha256'
 	checksum64     = '57FA2791AC43DC5F9B26AC2C0F6219EDCA9BFD1D5F56529346769C4323C1B73A'
@@ -29,4 +25,11 @@ $packageArgs = @{
 	validExitCodes = @(0, 5022) # 5022: version already current
 }
 
-Install-ChocolateyPackage @packageArgs
+$InstalledPackage = Get-UninstallRegistryKey -softwareName 'ESET Security' -WarningAction SilentlyContinue
+
+if ($InstalledPackage.DisplayVersion -eq $env:ChocolateyPackageVersion){
+	Write-Output 'Version is already current'
+}
+else {
+	Install-ChocolateyPackage @packageArgs
+}
