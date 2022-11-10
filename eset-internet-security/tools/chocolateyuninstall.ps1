@@ -1,1 +1,8 @@
-﻿Uninstall-ChocolateyPackage -packageName $env:ChocolateyPackageName -fileType MSI -silentArgs "{DC8185CE-C7E6-4812-9674-42919F445464} /qb /norestart" -validExitCodes @(0, 3010)
+﻿$Installed = Get-UninstallRegistryKey -softwareName 'ESET Security'
+
+if ($Installed){
+    Uninstall-ChocolateyPackage -packageName $env:ChocolateyPackageName -fileType MSI -silentArgs "$($Installed.PSChildName) /qb /norestart" -validExitCodes @(0, 3010)
+}
+else {
+    Write-Output 'Software is already uninstalled by other means'
+}
