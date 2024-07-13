@@ -3,7 +3,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>killdisk-freeware</id>
-    <version>14.0.21.4</version>
+    <version>24.0.1.2</version>
     <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/killdisk-freeware</packageSourceUrl>
     <owners>Wilco de Lange</owners>
     <!-- =============================== -->
