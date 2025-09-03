@@ -4,8 +4,8 @@ $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $packageArgs = @{
 	packageName   = $env:ChocolateyPackageName
 	unzipLocation = $toolsDir
-	url           = 'https://github.com/Collective-Software/ClickPaste/releases/download/v1.0.1/ClickPaste_v1.0.1.zip'
-	checksum      = 'C6946857FC733CFF1417DEA2EEB46D3CCD03CFDE462DA3D3830ACB40B3335568'
+	url           = 'https://github.com/Collective-Software/ClickPaste/releases/download/v1.3.1/ClickPaste_v1.3.1.zip'
+	checksum      = 'C484A6869C8DBD8DC20E2369345011D64FE01AB9519607154C546F63123A4D40'
 	checksumType  = 'sha256'
 }
 
