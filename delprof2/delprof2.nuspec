@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>delprof2</id>
-    <version>1.6.0</version>
+    <version>1.6.0.20260609</version>
     <packageSourceUrl>https://github.com/wilcodl/chocolatey-packages/tree/master/delprof2</packageSourceUrl>
     <owners>Wilco de Lange</owners>
     <title>Delprof2 (Portable)</title>
